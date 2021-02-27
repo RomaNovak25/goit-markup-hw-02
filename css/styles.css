@@ -1,3 +1,15 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: var(--secondary-font);
+    color: #212121;
+;
+}
+
 .link {
     text-decoration: none;
 }
@@ -10,31 +22,62 @@
     font-style: normal;
 }
 
-.logo-text {
-    font-family: 'Raleway', sans-serif; 
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
 
+/* ============= HEADER ============= */
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .navigation-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: #212121;
 }
+
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color);
+}
+/* ============= END HEADER ============= */
+
+/* ============= COMPONENTS ============= */
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+}
+
+.modal-btn {
+    font-family: var(--main-font);  
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+
+}
+
+.logo-text {
+    font-family: var(--secondary-font); 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+
 .tel-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -43,8 +86,7 @@
 }
 
 .mail-link {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,17 +97,58 @@
 
 .mail-link:hover,
 .mail-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+/* ============= END COMPONENTS ============= */
 
+
+
+/* ============= HERO ============= */
 .hero-title {
-    
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
 }
 
 .modal-btn {
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+/* ============= END HERO ============= */
 
+
+
+/* ============= GALLERY ============= */
+
+.modal-btn-navigation:focus,
+.modal-btn-navigation:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
-.title {
-
+.modal-btn-navigation {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+/* ============= END GALLERY ============= */
+
+
+
+
