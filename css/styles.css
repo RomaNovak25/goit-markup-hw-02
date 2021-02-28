@@ -41,6 +41,7 @@ body {
 .tel-link:focus {
     color: var(--accent-color);
 }
+
 /* ============= END HEADER ============= */
 
 
@@ -120,7 +121,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .modal-btn {
